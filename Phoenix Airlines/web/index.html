@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phoenix Airlines</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Bootstrap-->
+	<link rel = "Stylesheet" type="text/css" href="css/ bootstrap.min.css">
+	<!-- Site Icons -->
+        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+       <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- /Custom-Files -->
+
+	<!-- Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+	 rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+	<!-- Fonts -->
+        
+    </head>
+    <body>
+        <!-- header -->
+	<header id="home">
+		<div class="container">
+		<div class="header d-lg-flex justify-content-between align-items-center py-sm-3 py-2 px-sm-2 px-1">
+	<!-- logo -->
+			<div id="logo">
+				<h1><a href="index.html"><img src="images/logo.png" ></a></h1>
+			</div>
+	<!-- /logo -->
+	<!-- navi -->
+			<div class="nav_w3ls ml-lg-5">
+				<nav>
+					<label for="drop" class="toggle">Menu</label>
+					<input type="checkbox" id="drop" />
+					<ul class="menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="experience.html">Experience</a></li>
+						<li><a href="feedback.html">Feedback</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li class="ml-xl-5 ml-lg-2 mt-lg-0 mt-sm-4 mt-3">
+						    <a href="login.html" class="reqe-button text-uppercase">Login</a>
+						    <a href="register.html" class="reqe-button text-uppercase">Register</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+	<!-- /navi -->
+		</div>
+		</div>
+	</header>
+	<!-- /header -->
+
+	<!-- banner-->
+	<section class="banner">
+	<!-- banner text -->
+		<div class="container " >
+			<div class="banner_text_wthree_pvt">
+                            <center><h3 class="home-banner-w3"><b style="font-size: 45px;">Phoenix Airlines</b></h3>
+				<h2 class="home-banner-w3"><b>Start Your Journey</b></h2></center>
+                                <br><br><br><br><br>
+                                <form action="bookingr" method="POST" >
+				
+                                    <table class="table table-responsive-sm table-hover frm">	
+					<tr>
+                                            <td>
+						<input type="text" class="serach-input" placeholder="Departing Airport" name="Dairport" required>
+					    </td>
+                                            <td>
+						<input type="text" class="serach-input" placeholder="Destination Airport" name="Aairport" required>
+					    </td> 
+					</tr>
+                                        <tr>
+                                            <td><h4 style=" font-size:1.4rem "><label >E-mail:</label></h4></td>
+                                            <td><input type="email" class="serach-input" name="email" value="" placeholder="example@gmail.com" required/></td>
+                                        </tr>
+					<tr>
+					    <td>
+                                                <h4 style="font-size:1.4rem "><label for="date">Depart date:</label></h4>
+					    </td>
+					    <td>
+                                                <input type="date" class="serach-input" id="datetime" name="sdatetime" required>
+					    </td> 
+					</tr>
+                                        <tr>
+					    <td>
+                                                <h4 style=" font-size:1.4rem "><label for="date">Returning date:</label></h4>
+					    </td>
+					    <td>
+				                <input type="date" class="serach-input" id="datetime" name="edatetime" required>
+					    </td> 
+					</tr>
+					
+					<tr>
+                                            <td>
+                                                <h4 style=" font-size:1.4rem ">Adults:</h4> 
+                                            <select name="adults" class="select"  style="border-radius:20px;" required>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+                                                <option>6</option>
+						<option>7</option>
+						<option>8</option>
+					    </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+					    <h4 style=" font-size:1.4rem ">Children:</h4>
+                                            <select name="children" class="select" style="border-radius:20px;" required>
+                                                <option>0</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+                                                <option>6</option>
+						<option>7</option>
+                                                <option>8</option>
+                                            </select>
+                                            </td>
+				        </tr>
+                                        <tr>
+                                            <td>
+                                            <h4 style=" font-size:1.4rem ">Class:</h4>
+                                            <select name="class" class="select" style="border-radius:20px;" required>
+						<option>Economy Class</option>
+                                                <option>Business Class</option>
+                                                <option>First Class</option>
+					    </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><input class="btn bg-theme btn-lg" type="submit" value="Continue" style="border-radius:25px;"/></td>
+                                        </tr>
+				</table>		
+				</form>
+				
+			</div>
+                </div><br><br><br><br>
+			<div class="container">
+                            <div class="row" >
+					<div class="col-sm-4 col-6">
+						<div class="bb-img">
+							<img src="images/a2.jpg" class="img-fluid img-thumbnail" alt="" />
+                                                        <h3><font>Enjoy Traveling</font></h3>
+						</div>
+					</div>
+					<div class="col-sm-4 col-6">
+						<div class="bb-img">
+							<img src="images/a1.jpg" class="img-fluid img-thumbnail" alt="" />
+                                                        <h3><font>travel With your loved ones</font></h3>
+						</div>
+					</div>
+					<div class="col-sm-4 col-6 mx-auto mt-sm-0 mt-4">
+						<div class="bb-img">
+							<img src="images/a3.jpg" class="img-fluid img-thumbnail" alt="" />
+							<h3><font>experience the best hospitality</font></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+                <br><br><br><br><br><br><br><br><br><br><br>
+	</section>
+	<!-- /banner -->
+    
+	<!-- footer -->
+	<footer class="footer py-md-5 pt-md-3 pb-sm-5">
+		<div class="container">
+			<div class="row p-sm-4 px-3 py-3">
+				<div class="col-lg-4 footer-top mt-md-0 mt-sm-5">
+					<h2>
+						<a class="navbar-brand" href="index.html">Phoenix</a>
+					</h2>
+					<div class="fv3-contact mt-2">
+						<p>phoenix.airlines@gmail.com</p>
+					</div>
+					<div class="fv3-contact my-2">
+						<a href="tel:+94 112345678">+94 112345678</a>
+					</div>
+					<div class="fv3-contact">
+						<p>No: 35/3/2,
+						<br>Colombo, Sri Lanka.</p>
+					</div>
+				</div>
+				<div class="col-lg-2  col-md-6 mt-lg-0 mt-4">
+					<div class="footerv2-w3ls">
+						<h3 class="mb-3 w3f_title">Navigation</h3>
+						<hr>
+						<ul class="list-w3pvtits">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li class="my-2">
+								<a href="about.html">About Us</a>
+							</li>
+							<li class="my-2">
+								<a href="experience.html">Experience</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2  col-md-6 mt-lg-0 mt-4">
+					<div class="footerv2-w3ls">
+						<h3 class="mb-3 w3f_title">Links</h3>
+						<hr>
+						<ul class="list-w3pvtits">
+							<li>
+								<a href="about.html">Our Mission</a>
+							</li>
+							<li class="my-2">
+								<a href="experience.html">Explore</a>
+							</li>
+							<li class="mb-2">
+								<a href="feedback.html">Comments</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- /footer -->
+	
+	<!-- top icon -->
+	<a href="#home" class="move-top text-center">
+		<span class="fa fa-level-up" aria-hidden="true"></span>
+	</a>
+	<!-- /top icon -->
+    </body>
+</html>
